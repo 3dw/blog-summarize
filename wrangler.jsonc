@@ -12,7 +12,11 @@
 	},
 	"compatibility_flags": [
 		"nodejs_compat"
-	]
+	],
+	"account_id": "fb949e4bdb303a6977b98984ad2126f5",
+	"ai": {
+		"binding": "AI"
+	}
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
