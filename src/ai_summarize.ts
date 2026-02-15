@@ -72,8 +72,8 @@ async function generateChunkSummary(
 
 	const prompt =
 		totalChunks > 1
-			? `請為以下第${chunkIndex + 1}/${totalChunks}段內容生成重點摘要：`
-			: "請用正體中文把以下內容整理出來，重點整理。：";
+			? `請用正體中文、青少年也能懂的話語，為以下第${chunkIndex + 1}/${totalChunks}段內容生成重點摘要，不要太冗長：`
+			: "請用正體中文、青少年也能懂的話語，把以下內容整理出來，重點整理，不要太冗長：";
 
 	try {
 		const response = await env.AI.run("@cf/openai/gpt-oss-120b", {
